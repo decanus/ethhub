@@ -1,0 +1,39 @@
+site_name: EthHub
+theme:
+  name: 'material'
+  logo: 'logo.png'
+  favicon: 'assets/images/favicon.ico'
+
+//extra_css: [extra.css]
+
+repo_name: 'ethhub-io/ethhub'
+repo_url: 'https://github.com/ethhub-io/ethhub'
+
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/ethhub_io'
+
+google_analytics:
+  - 'UA-125892125-2'
+  - 'auto'
+
+nav:
+- Home: 'index.md'
+- Ethereum Basics:
+  - 'What is Ethereum?': 'ethereum-basics/what-is-ethereum.md'
+  - What is Ether?:
+    - 'Network Usage': 'ethereum-basics/what-is-ether/network-usage.md'
+    - 'Store of Value': 'ethereum-basics/what-is-ether/store-of-value.md'
+    - 'Medium of Exchange': 'ethereum-basics/what-is-ether/medium-of-exchange.md'
+  - 'History and Network Upgrades': 'ethereum-basics/history-and-forks.md'
+  - 'Monetary Policy': 'ethereum-basics/monetary-policy.md'
+  - Governance:
+    - 'Off-Chain Governance': 'ethereum-basics/governance/off-chain-governance.md'
+    - 'On-Chain Governance': 'ethereum-basics/governance/on-chain-governance.md'
+  - Development:
+    - 'Patterns': 'ethereum-basics/development/patterns.md'
+    - 'Testing': 'ethereum-basics/development/testing.md'
+    - 'Tooling': 'ethereum-basics/development/tooling.md'
+  - 'Resources': 'ethereum-basics/resources.md'
+
